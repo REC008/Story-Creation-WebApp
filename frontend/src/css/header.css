@@ -1,0 +1,85 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f3e392; /* Changed from blue to yellow */
+}
+
+header h3 {
+  background: linear-gradient(90deg, #ff4500, #ff6347, #ff7f50); /* Changed to orangish red fire color */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+header img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+header button {
+  padding: 10px 15px;
+  background-color: #0d2a88;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #143bbe;
+}
+
+/* Auth Buttons Style */
+#auth {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #314ca5, #92d6f3);
+  box-shadow: inset 4px 4px 8px rgb(92 92 93 / 40%), inset -4px -4px 8px rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4),
+      -4px -4px 8px rgba(255, 255, 255, 0.3);
+  background: linear-gradient(145deg, #6a6a6a, #3d3d3d);
+}
+
+.button:active {
+  background: #3d3d3d;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.login, .logout {
+  background-color: #007bff;
+}
+
+.register {
+  background-color: #28a745;
+}

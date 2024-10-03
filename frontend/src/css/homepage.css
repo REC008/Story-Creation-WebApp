@@ -1,0 +1,74 @@
+.story-title {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: flex-start; /* Align items to the start */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.create-story-btn {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block for button */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Space above button */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.create-story-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.cards {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    gap: 20px; /* Space between cards */
+}
+
+.card-container {
+    flex: 1 1 calc(25% - 20px); /* Responsive card width */
+    min-width: 200px; /* Minimum width for cards */
+}
+
+.card {
+    border: 1px solid #ccc; /* Border for card */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Clip overflow */
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
+    display: flex; /* Flexbox for card layout */
+    flex-direction: column; /* Column layout */
+}
+
+.story-box {
+    width: 100%; /* Full width */
+    height: 150px; /* Set a height for the box */
+    display: flex; /* Flexbox for centering image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    overflow: hidden; /* Clip overflow */
+}
+
+.story-image {
+    max-width: 100%; /* Maintain aspect ratio */
+    max-height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the box without distortion */
+}
+
+.title {
+    font-size: 18px; /* Font size for title */
+    font-weight: bold; /* Bold title */
+    padding: 10px; /* Padding for title */
+}
+
+.status, .author {
+    padding: 0 10px 10px; /* Padding for status and author */
+    font-size: 14px; /* Font size for status and author */
+}
