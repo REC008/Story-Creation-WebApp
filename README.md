@@ -10,8 +10,8 @@ frontend will be developed using React/Next.js.
 
 ### 1. Project Done with below configurations:
 python.exe --version - Python 3.12.6
-node.exe --version - v22.9.0
-npm.cmd --version - 10.8.3
+node.exe --version - v22.9.0 
+npm.cmd --version - 10.8.3 
 database settings.py - sqlite (Default)
 
 ### 2. Virtual Environment:
