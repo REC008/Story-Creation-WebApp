@@ -7,12 +7,12 @@ backend will be built using Django with the MVC (Model-View-Controller) pattern,
 frontend will be developed using React/Next.js.
 
 ## Technology Used:
-  -Python
-  -Django
-  -Javascript
-  -React.Js
-  -HTML
-  -CSS
+  -Python <br />
+  -Django <br />
+  -Javascript <br />
+  -React.Js <br />
+  -HTML <br />
+  -CSS <br />
 ## Instructions
 ### 1. Project Done with below configurations:
 `python.exe --version` - Python 3.12.6 <br />
