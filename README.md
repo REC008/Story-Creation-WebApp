@@ -1,13 +1,19 @@
 # Story-Creation-WebApp
 
-# Overview
+## Overview
 Develop a full-stack "Collaborative and Fun Story Creator" web application where
 authenticated users can collaboratively write short stories in a fun and structured way. The
 backend will be built using Django with the MVC (Model-View-Controller) pattern, and the
 frontend will be developed using React/Next.js.
 
-# Instructions
-
+## Technology Used:
+  -Python
+  -Django
+  -Javascript
+  -React.Js
+  -HTML
+  -CSS
+## Instructions
 ### 1. Project Done with below configurations:
 `python.exe --version` - Python 3.12.6 <br />
 `node.exe --version` - v22.9.0 <br />
